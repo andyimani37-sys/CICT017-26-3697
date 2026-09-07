@@ -19,9 +19,9 @@
       h2{
         color:orange;
       }
-      .car-table { width:100% border-collapse:collapse; }
-      .car-table th{ background:#0d1b2a; color:#fff;padding:14px; }
-      .car-table td{ padding:12px;border-bottom:1px solid #ddd; }
+      
+      
+      
     </style>
   </head>
   <body>
@@ -72,7 +72,67 @@
     <td>Available</td>
   </tr>
 </table>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.car-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+.car-table th {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 14px;
+  text-align: left;
+}
+.car-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #ddd;
+}
+.car-table tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+</style>
+</head>
+<body>
 
+<div style="overflow-x:auto;">
+<table class="car-table">
+  <tr>
+    <th>car model</th>
+    <th>year</th>
+    <th>mileage</th>
+    <th>price</th>
+    <th>status</th>
+  </tr>
+  <tr>
+    <td>subaru forester 2019</td>
+    <td>2019</td>
+    <td>120,000km</td>
+    <td>ksh 1,800,000</td>
+    <td>Available</td>
+  </tr>
+  <tr>
+    <td>subaru forester 2021</td>
+    <td>2021</td>
+    <td>150,000km</td>
+    <td>ksh 2,400,000</td>
+    <td>Available</td>
+  </tr>
+  <tr>
+    <td>Subaru forester 2023</td>
+    <td>2023</td>
+    <td>180,000km</td>
+    <td>ksh 3,000,000</td>
+    <td>Available</td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>
     
   
   
